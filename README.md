@@ -83,9 +83,3 @@ beach.cpp
 │   ├── setupLight()        - Thiết lập nguồn sáng chính/phụ
 │   └── setupLampLight()    - Thiết lập đèn đường (spotlight)
 ```
-
----
-
-## 📸 Gợi ý ảnh minh họa
-
-*(Bạn có thể thêm ảnh chụp màn hình khi chạy chương trình để minh họa các vật thể đã dựng.)*
