@@ -1,0 +1,3 @@
+﻿  beach.cpp
+C:\EAUT\Junior\ĐHMT\BTL\Beach\Beach\beach.cpp(891,20): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+  Beach.vcxproj -> C:\EAUT\Junior\ĐHMT\BTL\Beach\Debug\Beach.exe

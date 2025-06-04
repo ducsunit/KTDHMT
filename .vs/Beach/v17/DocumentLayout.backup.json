@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\EAUT\\Junior\\\u0110HMT\\BTL\\Beach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90F2F15B-177F-40BB-8731-ACDD8075380F}|Beach\\Beach.vcxproj|C:\\EAUT\\Junior\\\u0110HMT\\BTL\\Beach\\Beach\\beach.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90F2F15B-177F-40BB-8731-ACDD8075380F}|Beach\\Beach.vcxproj|solutionrelative:Beach\\beach.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "beach.cpp",
+              "DocumentMoniker": "C:\\EAUT\\Junior\\\u0110HMT\\BTL\\Beach\\Beach\\beach.cpp",
+              "RelativeDocumentMoniker": "Beach\\beach.cpp",
+              "ToolTip": "C:\\EAUT\\Junior\\\u0110HMT\\BTL\\Beach\\Beach\\beach.cpp",
+              "RelativeToolTip": "Beach\\beach.cpp",
+              "ViewState": "AgIAAGADAAAAAAAAAAAjwD8DAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T03:12:42.748Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
