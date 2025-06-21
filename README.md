@@ -1,48 +1,48 @@
-
 # 🌴 Beach Scene with OpenGL
 
-Đây là một chương trình mô phỏng cảnh bãi biển 3D sử dụng thư viện OpenGL (GLUT). Chương trình hiển thị một khung cảnh phong phú bao gồm mặt trời, biển, cát, cây cối, đồ vật vui chơi, và hệ thống ánh sáng tùy chỉnh.
+This is a 3D beach scene simulation program built using OpenGL (GLUT).  
+It renders a vibrant environment including sun, sea, sand, trees, recreational items, and custom lighting effects.
 
 ---
 
-## 🧰 Công nghệ sử dụng
+## 🧰 Technologies Used
 
-- **Ngôn ngữ:** C++
-- **Đồ họa:** OpenGL + GLUT
-- **Hiệu ứng ánh sáng:** GL_LIGHT0, GL_LIGHT1, GL_LIGHT2
-- **Hiệu ứng hình học:** sử dụng các khối cơ bản như cube, sphere, cylinder, cone, torus...
-
----
-
-## 🏝️ Các thành phần trong cảnh
-
-- **Mặt trời** ☀️
-- **Biển, cát, cỏ**
-- **Cây dừa**
-- **Ô che nắng**
-- **Phao**
-- **Quả bóng bãi biển**
-- **Bàn, ghế, thảm**
-- **Đèn đường có thể bật/tắt**
-- **Lâu đài cát 🏰**
-- **Snack, chai nước, xô, xẻng**
-- **Ván lướt sóng**
-- **Cỏ và sỏi rải rác**
-- **Hệ tọa độ X, Y, Z để kiểm tra**
+- **Language:** C++
+- **Graphics:** OpenGL + GLUT
+- **Lighting Effects:** GL_LIGHT0, GL_LIGHT1, GL_LIGHT2
+- **Geometry:** Basic shapes such as cubes, spheres, cylinders, cones, and torus
 
 ---
 
-## 🔦 Tính năng nổi bật
+## 🏝️ Scene Elements
 
-- **Điều khiển camera bằng chuột** (nhìn xung quanh bằng `yaw`, `pitch`)
-- **Di chuyển tự do bằng bàn phím**: 
-  - `W`, `A`, `S`, `D`: tiến, trái, lùi, phải
-  - `Q`, `E`: bay lên/xuống
-- **Tùy chỉnh ánh sáng**:
-  - `1` hoặc `mt`: bật/tắt ánh sáng môi trường
-  - `2` hoặc `den`: bật/tắt đèn đường
-  - `3` hoặc `đh`: bật/tắt ánh sáng định hướng từ mặt trời
-- **Hiệu ứng nước trong suốt và ánh sáng mô phỏng thực tế**
+- **Sun** ☀️  
+- **Sea, sand, grass**  
+- **Palm trees**  
+- **Beach umbrellas**  
+- **Buoys**  
+- **Beach balls**  
+- **Tables, chairs, mats**  
+- **Street lamps (can toggle on/off)**  
+- **Sandcastle** 🏰  
+- **Snacks, water bottles, buckets, shovels**  
+- **Surfboards**  
+- **Scattered grass and pebbles**  
+- **X, Y, Z coordinate axes for reference**
+
+---
+
+## 🔦 Key Features
+
+- **Mouse-controlled camera view** (look around with `yaw`, `pitch`)
+- **Free movement using keyboard**:  
+  - `W`, `A`, `S`, `D`: move forward, left, backward, right  
+  - `Q`, `E`: move up/down
+- **Toggle lighting modes**:  
+  - `1` or `mt`: toggle ambient light  
+  - `2` or `den`: toggle street lamp  
+  - `3` or `dh`: toggle directional sunlight
+- **Transparent water and realistic lighting simulation**
 
 ---
 
