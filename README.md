@@ -51,35 +51,36 @@ It renders a vibrant environment including sun, sea, sand, trees, recreational i
 ```
 beach.cpp
 │
-├── Hàm `main` - Khởi tạo cửa sổ, camera, ánh sáng và các callback
-├── init() - Thiết lập chế độ hiển thị và ánh sáng ban đầu
-├── display() - Hàm vẽ toàn bộ khung cảnh bãi biển
-├── keyboard() - Xử lý điều khiển di chuyển và bật/tắt ánh sáng
-├── passiveMouse() - Điều khiển hướng nhìn bằng chuột
+├── main() - Initializes window, camera, lighting, and callbacks
+├── init() - Sets initial display and lighting parameters
+├── display() - Renders the entire beach scene
+├── keyboard() - Handles movement and light toggle controls
+├── passiveMouse() - Controls camera direction via mouse
 │
-├── Các khối cảnh 3D:
-│   ├── drawGround()        - Vẽ nền gồm đất, cỏ, cát và biển
-│   ├── drawPalmTree()      - Cây dừa chi tiết gồm thân và lá
-│   ├── drawStreetLamp()    - Cột đèn đường + bóng đèn
-│   ├── drawUmbrella()      - Ô che nắng
-│   ├── drawCubeChair()     - Ghế nằm bãi biển
-│   ├── drawTable()         - Bàn
-│   ├── drawCarpet()        - Thảm
-│   ├── drawPhao()          - Phao nổi
-│   ├── drawBeachBall()     - Quả bóng bãi biển nhiều màu
-│   ├── drawWaterBottle()   - Chai nước
-│   ├── drawSnackBag()      - Túi snack
-│   ├── drawBucket()        - Cái xô
-│   ├── drawShovel()        - Cái xẻng
-│   ├── drawSurfboard()     - Ván lướt sóng
-│   ├── drawlaudaicat()     - Lâu đài cát
-│   ├── drawManyGrassTufts() - Cỏ
-│   ├── drawManyPebbles()   - Sỏi đá
+├── 3D Scene Components:
+│ ├── drawGround() - Draws terrain (sand, grass, sea)
+│ ├── drawPalmTree() - Detailed palm tree (trunk & leaves)
+│ ├── drawStreetLamp() - Street lamp + light bulb
+│ ├── drawUmbrella() - Beach umbrella
+│ ├── drawCubeChair() - Beach chair
+│ ├── drawTable() - Table
+│ ├── drawCarpet() - Beach mat
+│ ├── drawPhao() - Floating buoy
+│ ├── drawBeachBall() - Colorful beach ball
+│ ├── drawWaterBottle() - Water bottle
+│ ├── drawSnackBag() - Snack bag
+│ ├── drawBucket() - Sand bucket
+│ ├── drawShovel() - Shovel
+│ ├── drawSurfboard() - Surfboard
+│ ├── drawlaudaicat() - Sandcastle
+│ ├── drawManyGrassTufts() - Grass tufts
+│ ├── drawManyPebbles() - Pebbles
 │
-├── Các hàm ánh sáng:
-│   ├── toggleLight()       - Bật/tắt ánh sáng chung
-│   ├── toggleLamp()        - Bật/tắt đèn đường
-│   ├── toggledhlight1()    - Bật/tắt ánh sáng định hướng
-│   ├── setupLight()        - Thiết lập nguồn sáng chính/phụ
-│   └── setupLampLight()    - Thiết lập đèn đường (spotlight)
+├── Lighting Functions:
+│ ├── toggleLight() - Toggle global ambient light
+│ ├── toggleLamp() - Toggle street lamp
+│ ├── toggledhlight1() - Toggle directional sunlight
+│ ├── setupLight() - Configure main light sources
+│ └── setupLampLight() - Configure spotlight for lamp
+
 ```
